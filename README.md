@@ -221,16 +221,14 @@ Sometimes the classes are not in session so you have to wait a couple of months,
 
 ## Pick One Language for the Interview
 
-You can use a language you are comfortable in to do the coding part of the interview, but for large companies, these are solid choices:
+You can use a language you are comfortable in to do the coding part of the interview.
 
-- C++
-- Java
-- Python
+*NOTE* (jmill)
+My goal is to be proficient in Python, and comfortable with Rust, C, and Clojure.
 
-You could also use these, but read around first. There may be caveats:
-
-- JavaScript
-- Ruby
+2017: Python
+2018: Rust/C
+2019: Clojure
 
 You need to be very comfortable in the language and be knowledgeable.
 
@@ -248,19 +246,15 @@ This is a shorter list than what I used. This is abbreviated to save you time.
 
 ### Interview Prep
 
-- [ ] [Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html)
-    - answers in C++ and Java
-    - this is a good warm-up for Cracking the Coding Interview
-    - not too difficult, most problems may be easier than what you'll see in an interview (from what I've read)
 - [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
     - answers in Java
+    - [ ] Find/create solutions in Python
+    - [ ] Find/create solutions in Rust
+    - [ ] Find/create solutions in Clojure
 
 If you have tons of extra time:
 
-- [ ] [Elements of Programming Interviews (C++ version)](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
-- [ ] Elements of Programming Interviews (Java version)
-    - [book](https://www.amazon.com/Elements-Programming-Interviews-Java-Insiders/dp/1517435803/)
-    - [Companion Project - Method Stub and Test Cases for Every Problem in the Book](https://github.com/gardncl/elements-of-programming-interviews)
+- [ ] [Elements of Programming Interviews (Python version)](https://www.amazon.com/Elements-Programming-Interviews-Python-Insiders/dp/1537713949)
 
 ### Computer Architecture
 
@@ -294,37 +288,23 @@ If you read though one of these, you should have all the data structures and alg
 
 [Additional language-specific resources here.](programming-language-resources.md)
 
-### C++
-
-I haven't read these two, but they are highly rated and written by Sedgewick. He's awesome.
-
-- [ ] [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
-- [ ] [Algorithms in C++ Part 5: Graph Algorithms](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
-
-If you have a better recommendation for C++, please let me know. Looking for a comprehensive resource.
-
-### Java
-
-- [ ] [Algorithms (Sedgewick and Wayne)](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/)
-    - videos with book content (and Sedgewick!):
-        - [Algorithms I](https://www.youtube.com/user/algorithmscourses/playlists?view=50&sort=dd&shelf_id=2)
-        - [Algorithms II](https://www.youtube.com/user/algorithmscourses/playlists?shelf_id=3&view=50&sort=dd)
-
-OR:
-
-- [ ] [Data Structures and Algorithms in Java](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/)
-    - by Goodrich, Tamassia, Goldwasser
-    - used as optional text for CS intro course at UC Berkeley
-    - see my book report on the Python version below. This book covers the same topics.
+### C
+- [ ] K&R C (ordered)
 
 ### Python
 
-- [ ] [Data Structures and Algorithms in Python](https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/)
+- [ ] [Data Structures and Algorithms in Python](https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/)(ordered)
     - by Goodrich, Tamassia, Goldwasser
     - I loved this book. It covered everything and more.
     - Pythonic code
     - my glowing book report: https://startupnextdoor.com/book-report-data-structures-and-algorithms-in-python/
 
+### Rust
+
+
+### Clojure
+TODO
+- [ ] Brave Clojure?
 
 ### Optional Books
 
@@ -360,11 +340,6 @@ OR:
     - The first couple of chapters present clever solutions to programming problems (some very old using data tape) but
       that is just an intro. This a guidebook on program design and architecture, much like Code Complete, but much shorter.
 
-- ~~"Algorithms and Programming: Problems and Solutions" by Shen~~
-    - A fine book, but after working through problems on several pages I got frustrated with the Pascal, do while loops, 1-indexed arrays, and unclear post-condition satisfaction results.
-    - Would rather spend time on coding problems from another book or online coding problems.
-
-
 ## Before you Get Started
 
 This list grew over many months, and yes, it kind of got out of hand.
@@ -378,7 +353,7 @@ through my notes and making flashcards so I could review.
 
 Read please so you won't make my mistakes:
 
-[Retaining Computer Science Knowledge](https://startupnextdoor.com/retaining-computer-science-knowledge/)
+[x][Retaining Computer Science Knowledge](https://startupnextdoor.com/retaining-computer-science-knowledge/)
 
 ### 2. Use Flashcards
 
@@ -389,7 +364,7 @@ I made a mobile-first website so I could review on my phone and tablet, wherever
 
 Make your own for free:
 
-- [Flashcards site repo](https://github.com/jwasham/computer-science-flash-cards)
+- [x] [Flashcards site repo](https://github.com/jwasham/computer-science-flash-cards)(available at my server, see bookmarks)
 - [My flash cards database (old - 1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db):
 - [My flash cards database (new - 1800 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham-extreme.db):
 
@@ -398,11 +373,6 @@ Keep in mind I went overboard and have cards covering everything from assembly l
 **Note on flashcards:** The first time you recognize you know the answer, don't mark it as known. You have to see the
 same card and answer it several times correctly before you really know it. Repetition will put that knowledge deeper in
 your brain.
-
-An alternative to using my flashcard site is [Anki](http://ankisrs.net/), which has been recommended to me numerous times. It uses a repetition system to help you remember.
-It's user-friendly, available on all platforms and has a cloud sync system. It costs $25 on iOS but is free on other platforms.
-
-My flashcard database in Anki format: https://ankiweb.net/shared/info/25173560 (thanks [@xiewenya](https://github.com/xiewenya))
 
 ### 3. Review, review, review
 
@@ -428,11 +398,10 @@ Some subjects take one day, and some will take multiple days. Some are just lear
 
 Each day I take one subject from the list below, watch videos about that subject, and write an implementation in:
 - C - using structs and functions that take a struct * and something else as args.
-- C++ - without using built-in types
-- C++ - using built-in types, like STL's std::list for a linked list
+- Rust
+- Clojure
 - Python - using built-in types (to keep practicing Python)
 - and write tests to ensure I'm doing it right, sometimes just using simple assert() statements
-- You may do Java or something else, this is just my thing.
 
 You don't need all these. You need only [one language for the interview](#pick-one-language-for-the-interview).
 
@@ -448,6 +417,11 @@ You can see my code here:
  - [C++](https://github.com/jwasham/practice-cpp)
  - [Python](https://github.com/jwasham/practice-python)
 
+My code will live here:
+ - [C](https://github.com/jondelmil/practice-c)
+ - [C++](https://github.com/jondelmil/practice-cpp)
+ - [Python](https://github.com/jondelmil/practice-python)
+
 You don't need to memorize the guts of every algorithm.
 
 Write code on a whiteboard or paper, not a computer. Test with some sample inputs. Then test it out on a computer.
@@ -456,7 +430,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 
 - [ ] **Learn C**
     - C is everywhere. You'll see examples in books, lectures, videos, *everywhere* while you're studying.
-    - [ ] [C Programming Language, Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
+    - [ ] [C Programming Language, Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)(ordered)
         - This is a short book, but it will give you a great handle on the C language and if you practice it a little
             you'll quickly get proficient. Understanding C helps you understand how programs and memory work.
         - [answers to questions](https://github.com/lekkas/c-algorithms)
